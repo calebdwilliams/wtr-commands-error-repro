@@ -1,0 +1,17 @@
+{
+  "name": "wtr-commands-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "web-test-runner test/*.test.js --node-resolve --playwright --browsers chromium firefox webkit"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@open-wc/testing": "^2.5.32",
+    "@web/test-runner": "^0.12.20",
+    "@web/test-runner-commands": "^0.4.3",
+    "@web/test-runner-playwright": "^0.8.4"
+  }
+}
